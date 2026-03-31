@@ -1,5 +1,16 @@
 # Change Log
 
+## 3.1.6
+
+### Patch Changes
+
+- Add directory-level `package.json` fallback stubs for all subpath exports so that imports like `@clerk/expo/token-cache` resolve correctly in React Native bundlers that don't support the `exports` field (e.g., Metro without `unstable_enablePackageExports`). ([#8172](https://github.com/clerk/javascript/pull/8172)) by [@jacekradko](https://github.com/jacekradko)
+
+- Updated dependencies [[`00715a6`](https://github.com/clerk/javascript/commit/00715a6d9ea8cf412c989e870a3eff03973fa505), [`b8c73d3`](https://github.com/clerk/javascript/commit/b8c73d34ee30616e63b6320e7a8724630670eeb3), [`1827b50`](https://github.com/clerk/javascript/commit/1827b50a6ef9ab14c48cddc120796a9bf3c965b6)]:
+  - @clerk/shared@4.4.0
+  - @clerk/clerk-js@6.4.0
+  - @clerk/react@6.1.4
+
 ## 3.1.5
 
 ### Patch Changes

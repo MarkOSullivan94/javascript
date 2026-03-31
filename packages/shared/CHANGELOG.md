@@ -1,5 +1,19 @@
 # Change Log
 
+## 4.4.0
+
+### Minor Changes
+
+- Add `EnterpriseConnection` resource ([#8175](https://github.com/clerk/javascript/pull/8175)) by [@LauraBeatris](https://github.com/LauraBeatris)
+
+  `User.getEnterpriseConnections()` was wrongly typed as returning `EnterpriseAccountConnectionResource[]`, it now returns `EnterpriseConnectionResource[]`
+
+- Allow to link external accounts to enterprise accounts via `UserProfile` ([#8091](https://github.com/clerk/javascript/pull/8091)) by [@NicolasLopes7](https://github.com/NicolasLopes7)
+
+### Patch Changes
+
+- Improved error handling when creating API keys. ([#8056](https://github.com/clerk/javascript/pull/8056)) by [@wobsoriano](https://github.com/wobsoriano)
+
 ## 4.3.2
 
 ### Patch Changes

@@ -1,5 +1,20 @@
 # Change Log
 
+## 6.4.0
+
+### Minor Changes
+
+- Add `EnterpriseConnection` resource ([#8175](https://github.com/clerk/javascript/pull/8175)) by [@LauraBeatris](https://github.com/LauraBeatris)
+
+  `User.getEnterpriseConnections()` was wrongly typed as returning `EnterpriseAccountConnectionResource[]`, it now returns `EnterpriseConnectionResource[]`
+
+- Allow to link external accounts to enterprise accounts via `UserProfile` ([#8091](https://github.com/clerk/javascript/pull/8091)) by [@NicolasLopes7](https://github.com/NicolasLopes7)
+
+### Patch Changes
+
+- Updated dependencies [[`00715a6`](https://github.com/clerk/javascript/commit/00715a6d9ea8cf412c989e870a3eff03973fa505), [`b8c73d3`](https://github.com/clerk/javascript/commit/b8c73d34ee30616e63b6320e7a8724630670eeb3), [`1827b50`](https://github.com/clerk/javascript/commit/1827b50a6ef9ab14c48cddc120796a9bf3c965b6)]:
+  - @clerk/shared@4.4.0
+
 ## 6.3.3
 
 ### Patch Changes

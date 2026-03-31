@@ -1,5 +1,26 @@
 # Change Log
 
+## 4.3.0
+
+### Minor Changes
+
+- Allow to link external accounts to enterprise accounts via `UserProfile` ([#8091](https://github.com/clerk/javascript/pull/8091)) by [@NicolasLopes7](https://github.com/NicolasLopes7)
+
+### Patch Changes
+
+- Using length token in minimum and maximum length for swedish translations. ([#8167](https://github.com/clerk/javascript/pull/8167)) by [@DinoSourcesRex](https://github.com/DinoSourcesRex)
+
+- Improved error handling when creating API keys. ([#8056](https://github.com/clerk/javascript/pull/8056)) by [@wobsoriano](https://github.com/wobsoriano)
+
+- Add and improve Japanese translations ([#8151](https://github.com/clerk/javascript/pull/8151)) by [@kaz](https://github.com/kaz)
+
+- fix(localizations): add missing Hungarian translations for form placeholders and legal consent ([#8080](https://github.com/clerk/javascript/pull/8080)) by [@tornaia](https://github.com/tornaia)
+
+- Added missing Bulgarian translations for `UserProfile` component ([#8174](https://github.com/clerk/javascript/pull/8174)) by [@NikolayDikov-work](https://github.com/NikolayDikov-work)
+
+- Updated dependencies [[`00715a6`](https://github.com/clerk/javascript/commit/00715a6d9ea8cf412c989e870a3eff03973fa505), [`b8c73d3`](https://github.com/clerk/javascript/commit/b8c73d34ee30616e63b6320e7a8724630670eeb3), [`1827b50`](https://github.com/clerk/javascript/commit/1827b50a6ef9ab14c48cddc120796a9bf3c965b6)]:
+  - @clerk/shared@4.4.0
+
 ## 4.2.4
 
 ### Patch Changes

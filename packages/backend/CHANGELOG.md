@@ -1,5 +1,16 @@
 # Change Log
 
+## 3.2.4
+
+### Patch Changes
+
+- Fix frontend API proxy following redirects server-side instead of passing them to the browser. The proxy's `fetch()` call now uses `redirect: 'manual'` so that 3xx responses from FAPI (e.g. after OAuth callbacks) are returned to the client as-is, matching standard HTTP proxy behavior. ([#8186](https://github.com/clerk/javascript/pull/8186)) by [@brkalow](https://github.com/brkalow)
+
+- Add EnterpriseAccount and EnterpriseAccountConnection classes to @clerk/backend, restoring enterprise SSO account data on the User object that was lost when samlAccounts was removed in v3. ([#8181](https://github.com/clerk/javascript/pull/8181)) by [@iagodahlem](https://github.com/iagodahlem)
+
+- Updated dependencies [[`00715a6`](https://github.com/clerk/javascript/commit/00715a6d9ea8cf412c989e870a3eff03973fa505), [`b8c73d3`](https://github.com/clerk/javascript/commit/b8c73d34ee30616e63b6320e7a8724630670eeb3), [`1827b50`](https://github.com/clerk/javascript/commit/1827b50a6ef9ab14c48cddc120796a9bf3c965b6)]:
+  - @clerk/shared@4.4.0
+
 ## 3.2.3
 
 ### Patch Changes
